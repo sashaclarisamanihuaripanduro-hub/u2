@@ -1,0 +1,23 @@
+let mainTitle = document.getElementById("main-title");
+
+console.log(mainTitle);
+console.log(mainTitle.innertext);
+mainTitle.innertext = "titulo cambiado dinamicamente";
+console.log(mainTitle.innertext);
+console.log(mainTitle);
+console.log(mainTitle.innerText);
+mainTitle.innerText = "otro titulo";
+console.log(mainTitle.innerText);
+let maintext = document.getElementsByClassName("main-text");
+console.log(maintext);
+console, log(maintext[0]).innerText;
+maintext[0].innerText = "parrafo cambiado dinamicamente";
+let subtitles = document.getElementsByTagName("h2");
+console.log(subtitles);
+console.log(subtitles[0].innerText);
+console.log(subtitles[1].innerText);
+console.log(subtitles[2].innerText);
+let querymaintitle = document.querySelector("#main-title");
+console.log(querymaintitle);
+let querymaintext = document.querySelectorAll(".main-text");
+console.log(querymaintext);
